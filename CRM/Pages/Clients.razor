@@ -1,0 +1,58 @@
+@page "/clients"
+
+@inject IClientService ClientService
+
+<h3>Clients</h3>
+
+<!-- Display list of clients -->
+@if (clients != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Client Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var client in clients)
+            {
+                <tr>
+                    <td>@client.Name</td>
+                    <td>@client.Phone</td>
+                    <td>@client.Email</td>
+                    <td>@client.Status</td>
+                    <td><a href="client/@client.Id">Details</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<!-- If no clients are found, display message -->
+@if (clients == null || clients.Count == 0)
+{
+    <p>No clients found</p>
+}
+
+<!-- Button to add new client -->
+<div>
+    <button class="btn btn-primary" @onclick="AddClient">Add Client</button>
+</div>
+
+@code {
+    List<Client> clients;
+
+    protected override async Task OnInitializedAsync()
+    {
+        clients = await ClientService.GetClientsAsync();
+    }
+
+    private void AddClient()
+    {
+        NavigationManager.NavigateTo("/addclient");
+    }
+}

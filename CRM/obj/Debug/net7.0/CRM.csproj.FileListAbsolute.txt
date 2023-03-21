@@ -1,0 +1,8 @@
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.csproj.AssemblyReference.cache
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.AssemblyInfoInputs.cache
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.AssemblyInfo.cs
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.csproj.CoreCompileInputs.cache
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.MvcApplicationPartsAssemblyInfo.cache
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.RazorAssemblyInfo.cache
+D:\VSProjects\CRM Project\CRM\obj\Debug\net7.0\CRM.RazorAssemblyInfo.cs
