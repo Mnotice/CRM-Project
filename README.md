@@ -13,3 +13,9 @@ _To keep them satisfied_, forevermore**
 The limitations it imposes, the facade
 Of what it means to truly connect
 Reducing us to data, so _perfect_**
+![DALL·E 2023-03-22 13 56 08 - A image from a telescope of the Pillars of Creation and a scary entity behind it waving at viewer and smiling with huge smile and Scary eyes](https://user-images.githubusercontent.com/62525324/226898202-5375936b-89dd-4ce9-9171-029f688fefdc.png)
+
+***For in the end, it is not the CRM
+That will keep customers loyal, until the end
+It is the human touch, the personal care
+That will keep them coming back, with flair.***
